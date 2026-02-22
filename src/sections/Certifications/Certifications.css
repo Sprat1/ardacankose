@@ -1,0 +1,101 @@
+.certifications-section {
+    background-color: var(--color-bg-secondary);
+}
+
+.certifications-subtitle {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 5rem;
+    color: var(--color-text-secondary);
+    font-size: 1.2rem;
+}
+
+.certifications-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.cert-card {
+    background-color: var(--color-bg-primary);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    padding: 2.5rem;
+}
+
+.cert-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+    border-color: rgba(59, 130, 246, 0.2);
+}
+
+.cert-title {
+    font-size: 1.6rem;
+    font-weight: 800;
+    margin-bottom: 0.5rem;
+    color: var(--color-text-primary);
+}
+
+.cert-issuer {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--color-accent);
+    margin-bottom: 0.5rem;
+}
+
+.cert-date {
+    font-size: 0.9rem;
+    color: var(--color-text-secondary);
+    margin-bottom: 1.5rem;
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 0.3rem 0.8rem;
+    border-radius: 20px;
+}
+
+.cert-desc {
+    font-size: 1.05rem;
+    color: var(--color-text-secondary);
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+.cert-link {
+    font-weight: 700;
+    color: var(--color-text-primary);
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    position: relative;
+    display: inline-block;
+}
+
+.cert-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -4px;
+    left: 0;
+    background-color: var(--color-accent);
+    transition: width 0.3s ease;
+}
+
+.cert-link:hover::after {
+    width: 100%;
+}
+
+.cert-link:hover {
+    color: var(--color-accent);
+}
+
+@media screen and (max-width: 768px) {
+    .cert-card {
+        padding: 1.5rem;
+    }
+}
