@@ -11,7 +11,7 @@ const Hero = () => {
 
     return (
         <section id="home" className="hero-section">
-            <CometCard className="hero-side-card left-card" />
+            <CometCard className="hero-side-card left-card" image="/comet-left.jpg" />
 
             <div className="hero-content container">
                 <h1 className="hero-title animate-fade-up">
@@ -31,7 +31,7 @@ const Hero = () => {
                 </div>
             </div>
 
-            <CometCard className="hero-side-card right-card" />
+            <CometCard className="hero-side-card right-card" image="/comet-right.jpg" />
 
             <div className="hero-scroll-indicator">
                 <div className="mouse"></div>

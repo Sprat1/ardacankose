@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import "./CometCard.css";
 
-const CometCard = ({ children, className = "" }) => {
+const CometCard = ({ children, className = "", image }) => {
     const containerRef = useRef(null);
     const [rotation, setRotation] = useState({ x: 0, y: 0 });
 
@@ -60,6 +60,7 @@ const CometCard = ({ children, className = "" }) => {
             <div className="comet-card-glow"></div>
             <div className="comet-card-border-glow"></div>
             <div className="comet-card-inner">
+                {image && <img src={image} alt="comet" className="comet-card-image" />}
                 {children}
             </div>
         </div>
