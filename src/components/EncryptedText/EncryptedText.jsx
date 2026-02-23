@@ -4,8 +4,8 @@ const CHARACTERS = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz01234567
 
 const EncryptedText = ({
     text,
-    revealDelayMs = 80,
-    flipDelayMs = 30,
+    revealDelayMs = 150,
+    flipDelayMs = 50,
     charset = CHARACTERS,
     className = "",
     encryptedClassName = "opacity-50",
