@@ -126,6 +126,12 @@ const translations = {
                     title: 'Techstars Startup Weekend Istanbul',
                     description: 'Participated in a 54-hour intensive hackathon. Collaborated with a team of 5 to develop both the technical infrastructure and business model for a new startup concept.',
                     tags: ['Startup', 'Business Model', 'Hackathon']
+                },
+                {
+                    title: 'Titanic Survival Prediction (Google Colab)',
+                    description: 'A data analysis and machine learning project predicting passenger survival on the Titanic dataset.',
+                    tags: ['Google Colab', 'Data Science', 'Machine Learning', 'Python'],
+                    link: 'https://drive.google.com/drive/folders/1t4pea2hQFRA3Adu8-HX_oXTP337EyEP6?usp=drive_link'
                 }
             ]
         },
@@ -272,6 +278,12 @@ const translations = {
                     title: 'Techstars Startup Weekend Istanbul',
                     description: '54 saatlik yoğun bir hackathona katılım sağlandı. Yeni bir startup konsepti için 5 kişilik bir ekiple teknik altyapı ve iş modeli geliştirildi.',
                     tags: ['Startup', 'İş Modeli', 'Hackathon']
+                },
+                {
+                    title: 'Titanic Hayatta Kalma Tahmini (Google Colab)',
+                    description: 'Titanic veri seti üzerinde yolcuların hayatta kalma durumunu tahmin eden bir veri analizi ve makine öğrenmesi projesi.',
+                    tags: ['Google Colab', 'Veri Bilimi', 'Makine Öğrenmesi', 'Python'],
+                    link: 'https://drive.google.com/drive/folders/1t4pea2hQFRA3Adu8-HX_oXTP337EyEP6?usp=drive_link'
                 }
             ]
         },
