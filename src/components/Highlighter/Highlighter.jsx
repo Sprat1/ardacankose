@@ -48,7 +48,7 @@ const Highlighter = ({ children, color = 'var(--color-accent)', className = '', 
                     d="M -5,70 Q 50,55 105,65"
                     fill="none"
                     stroke={color}
-                    strokeWidth="45"
+                    strokeWidth="70"
                     strokeLinecap="round"
                     style={{
                         strokeDasharray: '120',
