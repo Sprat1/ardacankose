@@ -9,8 +9,8 @@ const Experience = () => {
     // Attach links that shouldn't be duplicated in translation files
     const experienceData = items.map((item, index) => {
         const links = [
-            'https://www.instagram.com/ytumint/?hl=en',
-            'https://www.instagram.com/ytumint/?hl=en',
+            'https://www.uyumsoft.com',
+            'https://www.uyumsoft.com',
             'https://www.instagram.com/ytumint/?hl=en',
             null
         ];
