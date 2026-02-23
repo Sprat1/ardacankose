@@ -32,7 +32,7 @@
 .project-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
-    border-color: rgba(135$14$2191, 0.3);
+    border-color: rgba(135, 14, 219, 0.3);
 }
 
 .project-content {
@@ -82,4 +82,18 @@
     .project-title {
         font-size: 1.5rem;
     }
+}
+
+/* Custom styles for Colab project */
+.project-card.bg-white {
+    background-color: #ffffff;
+}
+
+.project-title.text-colab {
+    color: #F89B27;
+    /* Colab Orange */
+}
+
+.project-desc.text-dark {
+    color: #1a1a1a;
 }

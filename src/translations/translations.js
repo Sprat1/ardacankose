@@ -128,7 +128,7 @@ const translations = {
                     tags: ['Startup', 'Business Model', 'Hackathon']
                 },
                 {
-                    title: 'Titanic Survival Prediction (Google Colab)',
+                    title: 'Quantitative Financial Projects',
                     description: 'A data analysis and machine learning project predicting passenger survival on the Titanic dataset.',
                     tags: ['Google Colab', 'Data Science', 'Machine Learning', 'Python'],
                     link: 'https://drive.google.com/drive/folders/1t4pea2hQFRA3Adu8-HX_oXTP337EyEP6?usp=drive_link'
@@ -280,7 +280,7 @@ const translations = {
                     tags: ['Startup', 'İş Modeli', 'Hackathon']
                 },
                 {
-                    title: 'Titanic Hayatta Kalma Tahmini (Google Colab)',
+                    title: 'Quantitative Financial Projects',
                     description: 'Titanic veri seti üzerinde yolcuların hayatta kalma durumunu tahmin eden bir veri analizi ve makine öğrenmesi projesi.',
                     tags: ['Google Colab', 'Veri Bilimi', 'Makine Öğrenmesi', 'Python'],
                     link: 'https://drive.google.com/drive/folders/1t4pea2hQFRA3Adu8-HX_oXTP337EyEP6?usp=drive_link'
