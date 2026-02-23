@@ -9,7 +9,7 @@ export default async function handler(req, res) {
         try {
             const { data, error } = await resend.emails.send({
                 from: 'Contact Form <onboarding@resend.dev>',
-                to: ['ardacankos@gmail.com'], // Replace with your actual email if needed
+                to: ['ardakose212@gmail.com'], // Updated to the new email
                 subject: `New message from ${name}`,
                 reply_to: email,
                 text: `Name: ${name}\nEmail: ${email}\nMessage: ${message}`,
