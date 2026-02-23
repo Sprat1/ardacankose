@@ -11,6 +11,32 @@
 
 .hero-content {
     max-width: 900px;
+    z-index: 2;
+}
+
+.hero-side-card {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 250px;
+    height: 400px;
+    z-index: 1;
+    display: none;
+    /* Hidden on small screens */
+}
+
+@media screen and (min-width: 1200px) {
+    .hero-side-card {
+        display: block;
+    }
+}
+
+.left-card {
+    left: 5%;
+}
+
+.right-card {
+    right: 5%;
 }
 
 .hero-title {

@@ -1,0 +1,65 @@
+.comet-card-wrapper {
+    position: relative;
+    border-radius: 12px;
+    background: rgba(10, 10, 10, 0.4);
+    padding: 1px;
+    overflow: hidden;
+    display: flex;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+    width: 100%;
+    height: 100%;
+}
+
+.comet-card-background {
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    background: radial-gradient(800px circle at var(--mouse-x, 0) var(--mouse-y, 0),
+            rgba(255, 255, 255, 0.06),
+            transparent 40%);
+    opacity: var(--opacity, 0);
+    transition: opacity 0.5s;
+    z-index: 1;
+}
+
+.comet-card-glow {
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    background: radial-gradient(400px circle at var(--mouse-x, 0) var(--mouse-y, 0),
+            rgba(255, 255, 255, 0.15),
+            transparent 40%);
+    opacity: var(--opacity, 0);
+    transition: opacity 0.5s;
+    z-index: 2;
+    mix-blend-mode: screen;
+}
+
+.comet-card-border-glow {
+    position: absolute;
+    inset: -1px;
+    border-radius: 13px;
+    background: radial-gradient(300px circle at var(--mouse-x, 0) var(--mouse-y, 0),
+            rgba(200, 200, 200, 0.4),
+            transparent 40%);
+    opacity: var(--opacity, 0);
+    transition: opacity 0.5s;
+    z-index: 0;
+}
+
+.comet-card-inner {
+    position: relative;
+    background: #111;
+    border-radius: 11px;
+    flex: 1;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.comet-card-wrapper:hover {
+    transform: scale(1.02);
+}
