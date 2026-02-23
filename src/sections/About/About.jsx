@@ -1,5 +1,6 @@
 import React from 'react';
 import { useTranslation } from '../../context/LanguageContext';
+import Highlighter from '../../components/Highlighter/Highlighter';
 import './About.css';
 
 const About = () => {
@@ -9,7 +10,7 @@ const About = () => {
     return (
         <section id="about" className="section about-section">
             <div className="container">
-                <h2 className="heading-secondary">{t('about.title')}</h2>
+                <h2 className="heading-secondary"><Highlighter>{t('about.title')}</Highlighter></h2>
                 <p className="about-subtitle">
                     {t('about.subtitle')}
                 </p>

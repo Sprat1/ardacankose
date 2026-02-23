@@ -1,5 +1,6 @@
 import React from 'react';
 import { useTranslation } from '../../context/LanguageContext';
+import Highlighter from '../../components/Highlighter/Highlighter';
 import './Experience.css';
 
 const Experience = () => {
@@ -20,7 +21,7 @@ const Experience = () => {
     return (
         <section id="experience" className="section experience-section">
             <div className="container">
-                <h2 className="heading-secondary">{t('experience.title')}</h2>
+                <h2 className="heading-secondary"><Highlighter>{t('experience.title')}</Highlighter></h2>
                 <p className="experience-subtitle">
                     {t('experience.subtitle')}
                 </p>

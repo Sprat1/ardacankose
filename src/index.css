@@ -75,17 +75,6 @@ img {
   transform: translateX(-50%);
 }
 
-.heading-secondary::after {
-  content: '';
-  position: absolute;
-  width: 50%;
-  height: 4px;
-  background-color: var(--color-accent);
-  bottom: -10px;
-  left: 25%;
-  border-radius: 4px;
-}
-
 /* Animations */
 @keyframes fadeInUp {
   from {
