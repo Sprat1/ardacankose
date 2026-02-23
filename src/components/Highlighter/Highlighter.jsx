@@ -41,14 +41,14 @@ const Highlighter = ({ children, color = 'var(--color-accent)', className = '', 
                     zIndex: -1,
                     overflow: 'visible'
                 }}
-                viewBox="0 0 100 100"
+                viewBox="0 0 100 30"
                 preserveAspectRatio="none"
             >
                 <path
-                    d="M -5,50 Q 50,45 105,55"
+                    d="M -5,15 Q 50,15 105,15"
                     fill="none"
                     stroke={color}
-                    strokeWidth="90"
+                    strokeWidth="30"
                     strokeLinecap="round"
                     style={{
                         strokeDasharray: '120',
