@@ -137,7 +137,7 @@ const translations = {
         },
         contact: {
             title: 'Contact',
-            subtitle: 'Feel free to Contact me by submitting the form below and I will get back to you as soon as possible.',
+            subtitle: 'Feel free to contact me by submitting the form below and I will get back to you as soon as possible.',
             nameLabel: 'Name',
             namePlaceholder: 'Enter Your Name',
             emailLabel: 'Email',
@@ -220,7 +220,7 @@ const translations = {
                     date: 'Eyl 2022 - Haz 2023',
                     type: 'Serbest Çalışan',
                     location: 'İstanbul, Türkiye',
-                    description: 'LGS ve YKS sınavlarına hazırlanan ortaokul ve lise öğrencilerine Matematik dersleri.'
+                    description: 'LGS ve YKS sınavlarına hazırlanan ortaokul ve lise öğrencilerine Matematik dersleri verdim.'
                 }
             ]
         },
