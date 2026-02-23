@@ -45,16 +45,16 @@ const Highlighter = ({ children, color = 'var(--color-accent)', className = '', 
                 preserveAspectRatio="none"
             >
                 <path
-                    d="M -5,70 Q 50,55 105,65"
+                    d="M -5,50 Q 50,45 105,55"
                     fill="none"
                     stroke={color}
-                    strokeWidth="70"
+                    strokeWidth="90"
                     strokeLinecap="round"
                     style={{
                         strokeDasharray: '120',
                         strokeDashoffset: isVisible ? '0' : '120',
                         transition: 'stroke-dashoffset 0.8s cubic-bezier(0.22, 1, 0.36, 1)',
-                        opacity: 0.6,
+                        opacity: 0.5,
                         filter: 'url(#roughness)'
                     }}
                 />
