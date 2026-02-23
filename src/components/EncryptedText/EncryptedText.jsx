@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
-const CHARACTERS = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_+-={}[];:,.<>/?";
+// Removed space and very thin characters to maintain more consistent width
+const CHARACTERS = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_+={}[];:<>/?";
 
 const EncryptedText = ({
     text,
@@ -39,6 +40,8 @@ const EncryptedText = ({
                 for (let i = 0; i < text.length; i++) {
                     if (i < revealedLength) {
                         currentText += text[i];
+                    } else if (text[i] === ' ') {
+                        currentText += ' '; // Preserve spaces to avoid word-wrap jumping
                     } else {
                         currentText += charset[Math.floor(Math.random() * charset.length)];
                     }
@@ -53,7 +56,7 @@ const EncryptedText = ({
     }, [text, revealedLength, flipDelayMs, charset]);
 
     return (
-        <span className={className}>
+        <span className={className} style={{ display: 'inline-block', whiteSpace: 'nowrap' }}>
             <span className={revealedClassName}>{displayText.slice(0, revealedLength)}</span>
             <span className={encryptedClassName}>{displayText.slice(revealedLength)}</span>
         </span>
