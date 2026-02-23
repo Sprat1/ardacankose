@@ -14,22 +14,22 @@ const Contact = () => {
                 </p>
 
                 <div className="contact-form-container">
-                    <form action="#" className="contact-form" onSubmit={(e) => e.preventDefault()}>
+                    <form action="https://formspree.io/f/mqkenryy" method="POST" className="contact-form">
                         <div className="form-content">
                             <div className="form-left">
                                 <div className="form-group">
                                     <label htmlFor="name">{t('contact.nameLabel')}</label>
-                                    <input type="text" id="name" placeholder={t('contact.namePlaceholder')} required />
+                                    <input type="text" id="name" name="name" placeholder={t('contact.namePlaceholder')} required />
                                 </div>
                                 <div className="form-group">
                                     <label htmlFor="email">{t('contact.emailLabel')}</label>
-                                    <input type="email" id="email" placeholder={t('contact.emailPlaceholder')} required />
+                                    <input type="email" id="email" name="email" placeholder={t('contact.emailPlaceholder')} required />
                                 </div>
                             </div>
                             <div className="form-right">
                                 <div className="form-group form-group-message">
                                     <label htmlFor="message">{t('contact.messageLabel')}</label>
-                                    <textarea id="message" placeholder={t('contact.messagePlaceholder')} required></textarea>
+                                    <textarea id="message" name="message" placeholder={t('contact.messagePlaceholder')} required></textarea>
                                 </div>
                             </div>
                         </div>
