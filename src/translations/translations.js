@@ -129,8 +129,8 @@ const translations = {
                 },
                 {
                     title: 'Quantitative Financial Projects',
-                    description: 'A data analysis and machine learning project predicting passenger survival on the Titanic dataset.',
-                    tags: ['Google Colab', 'Data Science', 'Machine Learning', 'Python'],
+                    description: 'A collection of quantitative finance notebooks including Algorithmic Trading with MACD & RSI, Black-Scholes-Merton Option Pricing, and Monte Carlo Simulations for stock price prediction.',
+                    tags: ['Google Colab', 'Quantitative Finance', 'Algorithmic Trading', 'Python'],
                     link: 'https://drive.google.com/drive/folders/1t4pea2hQFRA3Adu8-HX_oXTP337EyEP6?usp=drive_link'
                 }
             ]
@@ -281,8 +281,8 @@ const translations = {
                 },
                 {
                     title: 'Quantitative Financial Projects',
-                    description: 'Titanic veri seti üzerinde yolcuların hayatta kalma durumunu tahmin eden bir veri analizi ve makine öğrenmesi projesi.',
-                    tags: ['Google Colab', 'Veri Bilimi', 'Makine Öğrenmesi', 'Python'],
+                    description: 'MACD ve RSI ile Algoritmik Ticaret, Black-Scholes-Merton Opsiyon Fiyatlandırma ve Hisse Senedi Tahmini için Monte Carlo Simülasyonlarını içeren kantitatif finans not defterleri.',
+                    tags: ['Google Colab', 'Kantitatif Finans', 'Algoritmik Ticaret', 'Python'],
                     link: 'https://drive.google.com/drive/folders/1t4pea2hQFRA3Adu8-HX_oXTP337EyEP6?usp=drive_link'
                 }
             ]
