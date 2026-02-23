@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { FaBars, FaTimes, FaGlobe } from 'react-icons/fa';
 import { useTranslation } from '../../context/LanguageContext';
+import BackgroundGradientAnimation from '../BackgroundGradientAnimation/BackgroundGradientAnimation';
 import './Header.css';
 
 const Header = () => {
@@ -37,33 +38,38 @@ const Header = () => {
 
     return (
         <header className={`header ${isScrolled ? 'scrolled' : ''}`}>
-            <div className="header-content container">
-                <div className="logo">
-                    <a href="#home" onClick={closeMobileMenu}>
-                        Ardacan<span className="logo-dot">.</span>
-                    </a>
-                </div>
-
-                <nav className={`nav-links ${isMobileMenuOpen ? 'active' : ''}`}>
-                    {navLinks.map((link, index) => (
-                        <a
-                            key={index}
-                            href={link.href}
-                            className="nav-link"
-                            onClick={closeMobileMenu}
-                        >
-                            {link.name}
+            <BackgroundGradientAnimation
+                containerClassName="header-gradient-container"
+                size="80%"
+            >
+                <div className="header-content container">
+                    <div className="logo">
+                        <a href="#home" onClick={closeMobileMenu}>
+                            Ardacan<span className="logo-dot">.</span>
                         </a>
-                    ))}
-                    <button className="lang-toggle-btn" onClick={toggleLanguage} aria-label="Toggle Language">
-                        <FaGlobe /> {language === 'en' ? 'TR' : 'EN'}
-                    </button>
-                </nav>
+                    </div>
 
-                <div className="mobile-menu-btn" onClick={toggleMobileMenu}>
-                    {isMobileMenuOpen ? <FaTimes /> : <FaBars />}
+                    <nav className={`nav-links ${isMobileMenuOpen ? 'active' : ''}`}>
+                        {navLinks.map((link, index) => (
+                            <a
+                                key={index}
+                                href={link.href}
+                                className="nav-link"
+                                onClick={closeMobileMenu}
+                            >
+                                {link.name}
+                            </a>
+                        ))}
+                        <button className="lang-toggle-btn" onClick={toggleLanguage} aria-label="Toggle Language">
+                            <FaGlobe /> {language === 'en' ? 'TR' : 'EN'}
+                        </button>
+                    </nav>
+
+                    <div className="mobile-menu-btn" onClick={toggleMobileMenu}>
+                        {isMobileMenuOpen ? <FaTimes /> : <FaBars />}
+                    </div>
                 </div>
-            </div>
+            </BackgroundGradientAnimation>
         </header>
     );
 };
