@@ -8,7 +8,7 @@ const Projects = () => {
 
     const projectsData = items.map((item, index) => {
         const links = [
-            'https://www.kaggle.com/code/ardacankse/pgs5e5-ardacan-kose',
+            'https://drive.google.com/drive/folders/1t4pea2hQFRA3Adu8-HX_oXTP337EyEP6?usp=drive_link',
             'https://www.linkedin.com/in/ardacankose'
         ];
         return { ...item, link: links[index] };
