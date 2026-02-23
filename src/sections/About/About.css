@@ -55,7 +55,7 @@
 }
 
 .skill-chip:hover {
-    background-color: rgba(59, 130, 246, 0.1);
+    background-color: rgba(135$14$2191, 0.1);
     color: var(--color-accent);
     border-color: var(--color-accent);
     transform: translateY(-3px);

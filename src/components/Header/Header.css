@@ -81,7 +81,7 @@
 }
 
 .lang-toggle-btn:hover {
-    background: rgba(59, 130, 246, 0.2);
+    background: rgba(135$14$2191, 0.2);
     border-color: var(--color-accent);
     color: var(--color-accent);
     transform: translateY(-2px);

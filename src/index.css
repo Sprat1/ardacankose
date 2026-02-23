@@ -1,14 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap');
 
 :root {
-  --color-bg-primary: #0a0a0b;
-  --color-bg-secondary: #121214;
+  --color-bg-primary: #0D0D0D;
+  --color-bg-secondary: #100126;
   --color-text-primary: #ffffff;
   --color-text-secondary: #a1a1aa;
-  
-  --color-accent: #3b82f6; /* vibrant blue */
-  --color-accent-hover: #2563eb;
-  
+
+  --color-accent: #8704BF;
+  /* vibrant purple */
+  --color-accent-hover: #55038C;
+  --color-accent-dark: #2E0259;
+
   --font-family-main: 'Outfit', sans-serif;
 
   --transition-speed: 0.3s;
@@ -91,6 +93,7 @@ img {
     opacity: 0;
     transform: translateY(20px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);

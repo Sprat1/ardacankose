@@ -32,7 +32,7 @@
 .project-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
-    border-color: rgba(59, 130, 246, 0.3);
+    border-color: rgba(135$14$2191, 0.3);
 }
 
 .project-content {
