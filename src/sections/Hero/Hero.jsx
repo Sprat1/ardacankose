@@ -1,7 +1,6 @@
 import React from 'react';
 import { useTranslation } from '../../context/LanguageContext';
 import EncryptedText from '../../components/EncryptedText/EncryptedText';
-import CometCard from '../../components/CometCard/CometCard';
 import './Hero.css';
 
 const Hero = () => {
@@ -11,8 +10,6 @@ const Hero = () => {
 
     return (
         <section id="home" className="hero-section">
-            <CometCard className="hero-side-card left-card" image="/comet-left.jpg" />
-
             <div className="hero-content container">
                 <h1 className="hero-title animate-fade-up">
                     {parts[0]}
@@ -30,8 +27,6 @@ const Hero = () => {
                     <a href="#about" className="btn btn-primary">{t('hero.aboutBtn')}</a>
                 </div>
             </div>
-
-            <CometCard className="hero-side-card right-card" image="/comet-right.jpg" />
 
             <div className="hero-scroll-indicator">
                 <div className="mouse"></div>
