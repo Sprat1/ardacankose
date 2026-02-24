@@ -37,6 +37,7 @@
 
 .project-content {
     flex: 1;
+    position: relative;
 }
 
 .project-title {
@@ -82,6 +83,12 @@
     .project-title {
         font-size: 1.5rem;
     }
+
+    .colab-card-logo {
+        position: static;
+        margin-top: 2rem;
+        display: block;
+    }
 }
 
 /* Custom styles for Colab project */
@@ -96,4 +103,20 @@
 
 .project-desc.text-dark {
     color: #1a1a1a;
+}
+
+.colab-card-logo {
+    position: absolute;
+    right: 0;
+    bottom: -1rem;
+    width: 250px;
+    height: auto;
+    opacity: 0.85;
+    pointer-events: none;
+    transform: rotate(-5deg);
+    transition: transform var(--transition-speed) ease;
+}
+
+.project-card:hover .colab-card-logo {
+    transform: rotate(0deg) scale(1.05);
 }
