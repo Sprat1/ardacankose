@@ -88,37 +88,13 @@
 /* Custom styles for Colab project */
 .project-card.bg-white {
     background-color: #F5F5DC;
-    position: relative;
-    overflow: hidden;
 }
 
 .project-title.text-colab {
     color: #F89B27;
     /* Colab Orange */
-    position: relative;
-    z-index: 2;
 }
 
 .project-desc.text-dark {
     color: #1a1a1a;
-    position: relative;
-    z-index: 2;
-}
-
-.colab-card-logo {
-    position: absolute;
-    right: -10%;
-    bottom: -20%;
-    height: 140%;
-    width: auto;
-    opacity: 0.15;
-    z-index: 0;
-    pointer-events: none;
-    transform: rotate(-15deg);
-    transition: transform var(--transition-speed) ease, opacity var(--transition-speed) ease;
-}
-
-.project-card:hover .colab-card-logo {
-    transform: rotate(0deg) scale(1.05);
-    opacity: 0.25;
 }

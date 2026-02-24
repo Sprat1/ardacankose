@@ -2,7 +2,6 @@ import React from 'react';
 import { useTranslation } from '../../context/LanguageContext';
 import Highlighter from '../../components/Highlighter/Highlighter';
 import './Projects.css';
-import colabLogo from '../../assets/colab-logo.png';
 
 const Projects = () => {
     const { t } = useTranslation();
@@ -41,9 +40,6 @@ const Projects = () => {
                                     <a href={project.link} target="_blank" rel="noreferrer" className="btn btn-primary project-btn">
                                         {t('projects.viewDetails')}
                                     </a>
-                                    {isColabProject && (
-                                        <img src={colabLogo} alt="Google Colab" className="colab-card-logo" />
-                                    )}
                                 </div>
                             </div>
                         );
