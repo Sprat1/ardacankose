@@ -9,7 +9,7 @@ const translations = {
         hero: {
             title: "Hey, I'm Ardacan Köse",
             location: 'Istanbul, Turkey',
-            subtitle: "A Statistics Student at Yıldız Technical University & Product Management Intern focusing on building impactful digital products and leveraging data for growth.",
+            subtitle: "A Statistics Student at Yıldız Technical University & Product Manager focusing on building impactful digital products and leveraging data for growth.",
             projectsBtn: 'Projects',
             aboutBtn: 'About Me'
         },
@@ -20,7 +20,7 @@ const translations = {
             p1_1: "I am continuing my undergraduate education in ",
             p1_bold1: "Statistics",
             p1_2: " at Yıldız Technical University and am currently working as a ",
-            p1_bold2: "Product Management Intern",
+            p1_bold2: "Product Manager",
             p1_3: " at Uyumsoft. Here, I am using my analytical skills to contribute to the product lifecycle and CRM processes.",
             p2: "My education and professional experiences have reinforced my interest in technology and product management, while my knowledge of Statistics strengthens my analysis and problem-solving competencies. I am a professional focused on developing my areas of expertise and creating value.",
             p3: "I am open to Job and Internship opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to ",
@@ -40,7 +40,7 @@ const translations = {
             items: [
                 {
                     company: 'Uyumsoft',
-                    role: 'Product Management Intern',
+                    role: 'Product Manager',
                     date: 'Aug 2024 - Present',
                     type: 'On-site',
                     location: 'Istanbul, Turkey',
@@ -147,7 +147,7 @@ const translations = {
             submit: 'Submit'
         },
         footer: {
-            desc: 'Statistics Student at Yıldız Technical University & Product Management Intern focusing on building impactful digital products.',
+            desc: 'Statistics Student at Yıldız Technical University & Product Manager focusing on building impactful digital products.',
             social: 'Social'
         }
     },
@@ -161,7 +161,7 @@ const translations = {
         hero: {
             title: "Merhaba, Ben Ardacan Köse",
             location: 'İstanbul, Türkiye',
-            subtitle: "Yıldız Teknik Üniversitesi İstatistik Öğrencisi & etkili dijital ürünler geliştirmeye ve büyümek için veriden yararlanmaya odaklanan Ürün Yönetimi Stajyeri.",
+            subtitle: "Yıldız Teknik Üniversitesi İstatistik Öğrencisi & etkili dijital ürünler geliştirmeye ve büyümek için veriden yararlanmaya odaklanan Ürün Yöneticisi.",
             projectsBtn: 'Projeler',
             aboutBtn: 'Hakkımda'
         },
@@ -172,7 +172,7 @@ const translations = {
             p1_1: "Yıldız Teknik Üniversitesi'nde ",
             p1_bold1: "İstatistik",
             p1_2: " bölümünde lisans eğitimime devam ediyorum ve şu anda Uyumsoft'ta ",
-            p1_bold2: "Ürün Yönetimi Stajyeri",
+            p1_bold2: "Ürün Yöneticisi",
             p1_3: " olarak çalışıyorum. Burada ürün yaşam döngüsü ve CRM süreçlerine katkıda bulunarak analitik yeteneklerimi kullanıyorum.",
             p2: "Eğitimim ve profesyonel deneyimlerim, teknoloji ve ürün yönetimi alanlarına olan ilgimi pekiştirirken, İstatistik bilgimle analiz ve problem çözme yetkinliklerimi güçlendiriyor. Uzmanlık alanlarımı geliştirmeye ve değer yaratmaya odaklanmış bir profesyonelim.",
             p3: "Öğrenip gelişebileceğim ve katkı sağlayabileceğim iş ve staj fırsatlarına açığım. Eğer yeteneklerimle uyuşan iyi bir fırsatınız varsa benimle ",
@@ -192,7 +192,7 @@ const translations = {
             items: [
                 {
                     company: 'Uyumsoft',
-                    role: 'Ürün Yönetimi Stajyeri',
+                    role: 'Ürün Yöneticisi',
                     date: 'Ağu 2024 - Günümüz',
                     type: 'Yerinde',
                     location: 'İstanbul, Türkiye',
@@ -299,7 +299,7 @@ const translations = {
             submit: 'Gönder'
         },
         footer: {
-            desc: 'Yıldız Teknik Üniversitesi İstatistik Öğrencisi & etkili dijital ürünler geliştirmeye odaklanan Ürün Yönetimi Stajyeri.',
+            desc: 'Yıldız Teknik Üniversitesi İstatistik Öğrencisi & etkili dijital ürünler geliştirmeye odaklanan Ürün Yöneticisi.',
             social: 'Sosyal Ağlar'
         }
     }
