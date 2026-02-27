@@ -1,13 +1,18 @@
 import React, { useState, useEffect } from 'react';
 import { FaBars, FaTimes, FaGlobe } from 'react-icons/fa';
 import { useTranslation } from '../../context/LanguageContext';
+import { useTheme } from '../../context/ThemeContext';
 import BackgroundGradientAnimation from '../BackgroundGradientAnimation/BackgroundGradientAnimation';
+import AnimatedThemeToggler from '../ThemeToggler/AnimatedThemeToggler';
 import './Header.css';
 
 const Header = () => {
     const [isScrolled, setIsScrolled] = useState(false);
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
     const { language, toggleLanguage, t } = useTranslation();
+    const { theme } = useTheme();
+
+    const isDark = theme === 'dark';
 
     useEffect(() => {
         const handleScroll = () => {
@@ -41,6 +46,8 @@ const Header = () => {
             <BackgroundGradientAnimation
                 containerClassName="header-gradient-container"
                 size="80%"
+                gradientBackgroundStart={isDark ? "rgba(10, 10, 11, 1)" : "rgba(255, 255, 255, 1)"}
+                gradientBackgroundEnd={isDark ? "rgba(10, 10, 11, 1)" : "rgba(244, 244, 245, 1)"}
             >
                 <div className="header-content container">
                     <div className="logo">
@@ -60,6 +67,7 @@ const Header = () => {
                                 {link.name}
                             </a>
                         ))}
+                        <AnimatedThemeToggler />
                         <button className="lang-toggle-btn" onClick={toggleLanguage} aria-label="Toggle Language">
                             <FaGlobe /> {language === 'en' ? 'TR' : 'EN'}
                         </button>

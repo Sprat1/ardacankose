@@ -14,6 +14,17 @@
 
   --transition-speed: 0.3s;
   --max-width: 1200px;
+  --color-border: rgba(255, 255, 255, 0.1);
+  --color-bg-transparent: rgba(255, 255, 255, 0.05);
+}
+
+.light-mode {
+  --color-bg-primary: #ffffff;
+  --color-bg-secondary: #f4f4f5;
+  --color-text-primary: #0a0a0b;
+  --color-text-secondary: #52525b;
+  --color-border: rgba(0, 0, 0, 0.1);
+  --color-bg-transparent: rgba(0, 0, 0, 0.05);
 }
 
 * {
@@ -32,6 +43,7 @@ body {
   color: var(--color-text-primary);
   line-height: 1.6;
   overflow-x: hidden;
+  transition: background-color var(--transition-speed) ease, color var(--transition-speed) ease;
 }
 
 a {

@@ -1,0 +1,16 @@
+.theme-toggler {
+    background: transparent;
+    border: none;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: background-color 0.2s ease;
+    color: var(--color-text-primary);
+}
+
+.theme-toggler:hover {
+    background-color: rgba(128, 128, 128, 0.1);
+}
